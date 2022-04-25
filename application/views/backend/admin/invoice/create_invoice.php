@@ -72,10 +72,10 @@
         </div>
     </div>
     <!-- date & time -->
-
+    <div class="form-group mb-2">
     <label for="date"><?php echo get_phrase('date');?></label>
     <input type="date" class="form-control" id="date" name="date" required>
-
+    </div>
     <!--hidden field to update due amount-->
 
     <input type="hidden" name="class_id" value="<?php echo $enroll['class_id'];?>">
